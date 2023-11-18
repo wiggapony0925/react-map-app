@@ -1,0 +1,18 @@
+/* FloatingModal.css */
+
+.floating-modal {
+    position: fixed;
+    top: 90px;
+    left: 20px; /* Adjust the separation from the left border as needed */
+    width: 300px; /* Adjust the width as needed */
+    height: 80%; /* Reduce the height to make it shorter */
+    background-color: rgba(87, 86, 86, 0.8); /* Slightly transparent dark grey color */
+    padding: 15%; /* Add more padding for a chunkier appearance */
+    box-sizing: border-box;
+    border-radius: 10px; /* Add rounded corners */
+    overflow: hidden; /* Ensure rounded corners are visible */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  /* Add any additional styles as needed */
+  
