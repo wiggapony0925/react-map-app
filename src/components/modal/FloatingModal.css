@@ -3,16 +3,29 @@
 .floating-modal {
     position: fixed;
     top: 90px;
-    left: 20px; /* Adjust the separation from the left border as needed */
-    width: 300px; /* Adjust the width as needed */
-    height: 80%; /* Reduce the height to make it shorter */
-    background-color: rgba(87, 86, 86, 0.8); /* Slightly transparent dark grey color */
-    padding: 15%; /* Add more padding for a chunkier appearance */
+    left: 20px;
+    width: 550px;
+    height: 80%;
+    background-color: rgba(87, 86, 86, 0.8);
+    padding: 15px; /* Adjusted padding */
     box-sizing: border-box;
-    border-radius: 10px; /* Add rounded corners */
-    overflow: hidden; /* Ensure rounded corners are visible */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-  }
-  
-  /* Add any additional styles as needed */
-  
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo styles */
+.logo-container {
+    margin-top: 20px; /* Adjusted margin */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the logo vertically */
+}
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+/* Adjust any additional styles as needed */
