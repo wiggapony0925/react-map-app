@@ -6,6 +6,7 @@ import {
   InfoWindow,
 } from "@react-google-maps/api";
 import MapStyle from "./MapStyle";
+import Navbar from "./navbar/Navbar";
 
 const libraries = ["places"];
 const mapContainerStyle: React.CSSProperties = {

@@ -1,0 +1,57 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0); /* Completely transparent background */
+    padding: 5px;
+    color: #fff; /* Text color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure the navbar is above other elements */
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 100%;
+    flex: 1; /* Take up remaining space in the flex container */
+  }
+  
+  .logo-container img {
+    width: 150px; /* Adjust the logo size as needed */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    color: #fff; /* White color for the menu icon */
+    cursor: pointer;
+    margin-left: 20px; /* Adjust the margin as needed */
+  }
+    
+  .link-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .survey-link {
+    color: rgb(255, 255, 255); /* Maroon color for the survey link */
+    padding: 10px;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Add any additional styles as needed */
+  
